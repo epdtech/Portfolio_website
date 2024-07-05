@@ -11,10 +11,10 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Hi :wave:")
-    st.title("I am Murtaza Hassan")
+    st.title("I am Taz")
 
 with col2:
-    st.image("images/murtaza.png")
+    st.image("images/taz.jpg")
 
 st.title(" ")
 
