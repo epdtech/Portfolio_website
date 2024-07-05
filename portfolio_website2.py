@@ -18,7 +18,7 @@ with col2:
 
 st.title(" ")
 
-st.title("Murtaza's AI Bot")
+st.title("Taz's AI Bot")
 user_question = st.text_input("Ask anything about me")
 
 if st.button("ASK", use_container_width=400):
