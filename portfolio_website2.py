@@ -31,12 +31,8 @@ st.title(" ")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.subheader("Youtube Channel")
-    st.write("- Largest Computer Vision Channel")
-    st.write("- 400k+ Subscribers")
-    st.write("- Over 150 Free Tutorials")
-    st.write("- 15 Million+ Views")
-    st.write("- 1.5 Million Hours+ Watch time")
+    st.subheader("Taz Channel")
+
 
 with col2:
     st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
