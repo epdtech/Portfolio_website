@@ -58,7 +58,7 @@ col1,col2,col3 = st.columns(3)
 
 with col1:
     st.image("images/taz1.jpg")
-    st.image("images/taz2.jpg")
+    st.image("images/taz2rot.jpg")
     st.image("images/tazlion.jpg")
 
 st.write("CONTACT")
