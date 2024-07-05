@@ -32,10 +32,12 @@ st.title(" ")
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Taz Channel")
-
+    st.subheader("watch my video")
 
 with col2:
-    st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
+    #st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
+    video_file =open("images/TazSpinn - Trim.mp4", 'rb')
+    st.video(video_file)
 
 st.title(" ")
 
