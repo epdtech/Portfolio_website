@@ -36,8 +36,8 @@ with col1:
 
 with col2:
     #st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
-    video_file =open("images/TazSpinn - Trim.mp4", 'rb')
-    st.video(video_file)
+    #video_file =open("images/TazSpinn - Trim.mp4", 'rb')
+    #st.video(video_file)
 
 st.title(" ")
 
