@@ -40,7 +40,7 @@ with col2:
 st.title(" ")
 
 st.title("My Setup")
-st.image("images/setup.jpg")
+#st.image("images/setup.jpg")
 
 # st.subheader(" ")
 st.write(" ")
@@ -54,20 +54,7 @@ st.title("Gallery")
 
 col1,col2,col3 = st.columns(3)
 
-with col1:
-    st.image("images/g1.jpg")
-    st.image("images/g2.jpg")
-    st.image("images/g3.jpg")
 
-with col2:
-    st.image("images/g4.jpg")
-    st.image("images/g5.jpg")
-    st.image("images/g6.jpg")
-
-with col3:
-    st.image("images/g7.jpg")
-    st.image("images/g8.jpg")
-    st.image("images/g9.jpg")
 
 st.write("CONTACT")
 st.title("For any inquiries, please contac me at:")
