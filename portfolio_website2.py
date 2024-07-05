@@ -57,9 +57,9 @@ st.title("Gallery")
 col1,col2,col3 = st.columns(3)
 
 with col1:
-    st.image("images/g1.jpg")
-    st.image("images/g2.jpg")
-    st.image("images/g3.jpg")
+    st.image("images/taz1.jpg")
+    st.image("images/taz2.jpg")
+    st.image("images/tazlion.jpg")
 
 st.write("CONTACT")
 st.title("For any inquiries, please contac me at:")
