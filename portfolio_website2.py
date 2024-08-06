@@ -49,6 +49,7 @@ st.write(" ")
 st.slider("Programming", 0,100,50)
 st.slider("Teaching", 0,100,70)
 st.slider("Robotics", 0,100,20)
+st.slider("barking skills", 0,100,100)
 
 # st.file_uploader("Upload a file")
 st.write(" ")
