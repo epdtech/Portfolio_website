@@ -42,9 +42,17 @@ persona = """
         """
 
 st.title("Taz's AI Bott")
-user_question = st.text_input("Ask anything about me")
 
-if st.button("ASK", use_container_width=400):
+user_question = st.text_input("Ask anything about me")
+if st.button("ASK ME", use_container_width=400):
+    prompt = persona + "Here is the question that the user asked: " + user_question
+    response = model.generate_content(prompt)
+    st.write(response.text)
+
+
+user_question = st.text_input("Ask anything else")
+
+if st.button("ASK ANYTHING", use_container_width=400):
     prompt = user_question
     response = model.generate_content(prompt)
     st.write(response.text)
@@ -72,7 +80,7 @@ st.write(" ")
 st.slider("Programming", 0,100,50)
 st.slider("Teaching", 0,100,70)
 st.slider("Robotics", 0,100,20)
-st.slider("barking skills", 0,100,100)
+# st.slider("barking skills", 0,100,100)
 
 # st.file_uploader("Upload a file")
 st.write(" ")
