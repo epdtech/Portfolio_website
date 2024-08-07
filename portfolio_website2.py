@@ -93,7 +93,7 @@ with col1:
     st.image("images/taz2rot.jpg")
     st.image("images/tazlion.jpg")
 
-with col2:
+#with col2:
 #    st.image("images/g5.jpg")
 #    st.image("images/taz6.jpg")
 #    st.image("images/taz7.jpg")
