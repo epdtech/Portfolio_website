@@ -95,8 +95,8 @@ with col1:
 
 with col2:
     st.image("images/tsz55.jpg")
-    st.image("images/tsz6.jpg")
-    st.image("images/tsz7.jpg")
+    st.image("images/taz6.jpg")
+    st.image("images/taz7.jpg")
 
 st.write("CONTACT")
 st.title("For any inquiries, please contac me at:")
