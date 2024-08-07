@@ -100,4 +100,4 @@ with col1:
 
 st.write("CONTACT")
 st.title("For any inquiries, please contac me at:")
-st.write("polarnikka@google.com")
+st.write("taz@taz.com")
