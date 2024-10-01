@@ -19,7 +19,7 @@ st.set_page_config(
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("Hi :wave:")
+    st.subheader("Hiama :wave:")
     st.title("I am Taz")
 
 with col2:
