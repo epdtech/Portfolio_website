@@ -20,7 +20,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Hiama :wave:")
-    st.title("I am Taz")
+    st.title("I am TazMann")
 
 with col2:
     st.image("images/taz.jpg")
