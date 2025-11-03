@@ -38,7 +38,7 @@ with col3:
 
     #st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
     st.image("images/diy marlboro maze.jpg")
-    st.image("images/diy marlboro maze.jpg")
+    st.image("images/NesArcade.jpg")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -48,4 +48,5 @@ with col1:
 
 with col2:
     st.image("images/Diy mole repeller1.jpg")
+
 
